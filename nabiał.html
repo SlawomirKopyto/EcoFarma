@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <title>EcoFarma</title>
+  <meta name="description" content="Ekologiczne owoce i warzywa">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='/css/style.css'>
+  <link rel='stylesheet' href='/css/main.css'>
+  <link rel='stylesheet' href='/css/articles.css'>
+</head>
+
+<body>
+  <header>
+    <a href="/index.html" class="logo">
+      <h1>Eco<span><img src="/images/pngbarn (35) 2.png" alt="logo" class="logo__img"></span>Farm</h1>
+    </a>
+    <form>
+      <input type="text" name="srch" id="srch" required placeholder="Enter your search">
+      <button type="submit">Search</button>
+    </form>
+    <div class="xxx">
+      <div class="cart">
+        <img src="https://worldbox.pl/img/icons/icon-cart.svg" alt="cart">
+        <p>Kosz</p> 
+      </div>
+      <div class="login">
+        <img src="https://worldbox.pl/img/icons/icon-user.svg" alt="login" class="xxx__icon">
+        <p>Zaloguj się</p>
+      </div>
+    </div>
+  </header>
+  <section class="main main1">
+    <a href="index.html" class="main__arrow">&#129144;</a>
+    <div class="main__header">
+      <h2 class="main__header-text">Świeża, zdrowa i ekologiczna <br>żywność obok Ciebie</h2>
+    </div>
+    <div class="main__header">
+      <img src="images/pexels-mali-maeder-142520 1.png" alt="baner" class="main__header-image1">
+    </div>
+  </section>
+  <section class="articles">
+    <a href="owoce.html" class="articles__header ">
+      <img src="images/pngbarn (9) 2.png" alt="owoce" class="articles__icon">
+      <div class="article__description">Owoce</div>
+    </a>
+    <a href="warzywa.html" class="articles__header">
+      <img src="images/pngbarn (15) 2.png" alt="warzywa" class="articles__icon">
+      <div class="article__description">Warzywa</div>
+    </a>
+    <a href="nabiał.html" class="articles__header articles__header-dairy">
+      <img src="images/pngbarn (18) 2.png" alt="wyroby mleczne" class="articles__icon">
+      <div class="article__description">Wyroby mleczne</div>
+    </a>
+    <a href="oleje.html" class="articles__header">
+      <img src="images/pngbarn (22) 2.png" alt="oleje" class="articles__icon">
+      <div class="article__description">Oleje</div>
+    </a>
+    <a href="miód.html" class="articles__header">
+      <img src="images/pngbarn (2) 2.png" alt="miód" class="articles__icon">
+      <div class="article__description">Miód</div>
+    </a>
+    <a href="pozostałe.html" class="articles__header">
+      <img src="images/pngbarn (21) 3.png" alt="pozostałe" class="articles__icon">
+      <div class="article__description">Pozostałe</div>
+    </a>
+  </section>
+  <div id="root">
+    <div class="container">
+      <div class="card">
+        <div class="card__info">
+          <div>
+            <h2 class="card__title">Mleko</h2>
+            <p class="card__price">7 zł / litr</p>
+          </div>
+          <img src="/images/milk.png" alt="milk">
+        </div>
+        <button class="cart__button">Dodaj do koszyka</button>
+      </div>
+      <div class="card">
+        <div class="card__info">
+          <div>
+            <h2 class="card__title">Masło</h2>
+            <p class="card__price">20 zł / kg</p>
+          </div>
+          <img src="/images/butter.png" alt="butter">
+        </div>
+        <button class="cart__button">Dodaj do koszyka</button>
+      </div>
+      <div class="card">
+        <div class="card__info">
+          <div>
+            <h2 class="card__title">Ser Żółty</h2>
+            <p class="card__price">22 zł / kg</p>
+          </div>
+          <img src="/images/cheese.png" alt="cheese">
+        </div>
+        <button class="cart__button">Dodaj do koszyka</button>
+      </div>
+      <div class="card">
+        <div class="card__info">
+          <div>
+            <h2 class="card__title">Twarożek</h2>
+            <p class="card__price">16 zł / kg</p>
+          </div>
+          <img src="/images/cottage_cheese.png" alt="cottage_cheese">
+        </div>
+        <button class="cart__button">Dodaj do koszyka</button>
+      </div>
+      <div class="card">
+        <div class="card__info">
+          <div>
+            <h2 class="card__title">Śmietana</h2>
+            <p class="card__price">8 zł / litr</p>
+          </div>
+          <img src="/images/cream.png" alt="cream">
+        </div>
+        <button class="cart__button">Dodaj do koszyka</button>
+      </div>
+      <div class="card">
+        <div class="card__info">
+          <div>
+            <h2 class="card__title">Maślanka</h2>
+            <p class="card__price">13 zł / litr</p>
+          </div>
+          <img src="/images/buttermilk.png" alt="buttermilk">
+        </div>
+        <button class="cart__button">Dodaj do koszyka</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
