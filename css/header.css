@@ -1,0 +1,140 @@
+header {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-height: 100px;
+    background: linear-gradient(120deg, #f2f54a 0%, #FDD32A 100%);
+    z-index: 1;
+}
+
+@media(max-width: 867px) {
+    header {
+        justify-content: space-around;
+    }
+}
+
+.logo {
+    margin-left: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.logo__img {
+    width: 20%;
+}
+
+
+@media(max-width: 864px){
+    h1{
+        font-size: 1.4rem;
+    }
+}
+
+header form {
+    height: 40px;
+    margin: 10px 0;
+}
+
+@media(max-width: 864px){
+    header form {
+        height: 30px;
+    }
+}
+
+@media(max-width: 509px){
+    header form {
+        margin-top: 0px;
+        order: 1;
+    }
+}
+
+header form input,
+header form button {
+    height: 100%;
+    border: 1px solid #0004;
+    border-radius: 15px;
+    outline: none;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.xxx {
+    display: flex;
+    gap: 30px;
+    margin-right: 40px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.cart {
+    display: block;
+    justify-content: end;
+    margin: 10px 0;
+}
+
+.login {
+    display: block;
+    justify-content: end;
+    margin: 10px 0;
+    margin-bottom: 5px;
+}
+
+.xxx__icon {
+    padding-bottom: 7px;
+}
+
+
+@media (max-width: 669px) {
+    .xxx__menu {
+        position: fixed;
+        top: 0;
+        right: 0;
+        background: gray;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-50%);
+        margin-right: 0;
+        padding: 40px;
+    }
+}
+
+@media (max-width: 669px) {
+    .xxx__menu--open {
+        opacity: 1;
+        pointer-events: unset;
+        transform: unset;
+    }
+}
+
+
+.header__mobile-button {
+    display: none;
+}
+
+@media (max-width: 669px) {
+    .header__mobile-button {
+        display: unset;
+        background: none;
+        border: none;
+        padding: 0;
+    }
+}
+
+
+@media (max-width: 669px) {
+    .header__mobile-button-image {
+        width: 25px;
+        display: block;
+    }
+}
+
