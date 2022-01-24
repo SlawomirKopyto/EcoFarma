@@ -36,9 +36,28 @@ header {
 
 }
 
+@media(max-width: 864px){
+    h1{
+        font-size: 1.4rem;
+    }
+}
+
 header form {
     height: 40px;
     margin: 10px 0;
+}
+
+@media(max-width: 864px){
+    header form {
+        height: 30px;
+    }
+}
+
+@media(max-width: 483px){
+    header form {
+        margin-top: -10px;
+        margin-bottom: 15px;
+    }
 }
 
 header form input,
@@ -56,7 +75,14 @@ header form button {
     gap: 30px;
     margin-right: 40px;
     align-items: center;
-    text-align: center;  
+    text-align: center;
+}
+@media(max-width: 678px) {
+    .xxx {
+        margin-top: -20px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
 }
 
 .cart {
@@ -71,6 +97,7 @@ header form button {
     margin: 10px 0;
     margin-bottom: 5px;
 }
+
 .xxx__icon {
     padding-bottom: 7px;
 }
@@ -98,7 +125,7 @@ header form button {
     transition: all 0.4s linear;
 }
 
-.card:hover{
+.card:hover {
     box-shadow: 4px 10px 20px rgba(8, 3, 3, 0.267);
     transform: scale(1.04);
 }
@@ -117,6 +144,12 @@ header form button {
     font-size: 2rem;
 }
 
+@media(max-width: 599px) {
+    .card__title {
+        font-size: 1.4rem;
+    }
+}
+
 .card__info-beetroot,
 .card__info-parsley {
     justify-content: flex-end;
@@ -127,10 +160,28 @@ header form button {
     font-size: 1.8rem;
 }
 
+@media(max-width: 599px) {
+    .card__title-beetroot {
+        font-size: 1.2rem;
+    }
+}
+
+@media(max-width: 599px) {
+    .card__title-pork {
+        font-size: 1.2rem;
+    }
+}
+
 .card__price {
     padding: 10px;
     margin: 10px;
     font-size: 1.2rem;
+}
+
+@media(max-width: 599px) {
+    .card__price {
+        font-size: 1.0rem;
+    }
 }
 
 .cart__button {
