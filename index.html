@@ -16,6 +16,8 @@
   <link rel='stylesheet' href='css/style.css'>
   <link rel='stylesheet' href='css/main.css'>
   <link rel='stylesheet' href='css/articles.css'>
+  <link rel='stylesheet' href='css/header.css'>
+  <script src="app.js" defer></script>
 </head>
 
 <body>
@@ -27,7 +29,7 @@
       <input type="text" name="srch" id="srch" required placeholder="Enter your search">
       <button type="submit">Search</button>
     </form>
-    <div class="xxx">
+    <div class="xxx xxx__menu js-xxx__menu">
       <div class="cart">
         <img src="https://worldbox.pl/img/icons/icon-cart.svg" alt="cart">
         <p>Kosz</p> 
@@ -37,6 +39,10 @@
         <p>Zaloguj się</p>
       </div>
     </div>
+    <button class="header__mobile-button js-header__mobile-button">
+      <img src="images/navigation.svg" alt="Otwórz / Zamknij nawigacje"
+        class="header__mobile-button-image">
+    </button>
   </header>
   <section class="main">
     <div class="main__header">
