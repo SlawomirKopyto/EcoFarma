@@ -1,0 +1,56 @@
+.articles {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 40px;
+}
+
+@media(max-width: 1199px) {
+    .articles {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 5px 10px;
+    }
+}
+
+@media(max-width: 767px) {
+    .articles {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 5px 10px;
+    }
+}
+
+.articles__header {
+    background: white;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+.articles__header:hover {
+    background: rgb(221, 221, 72);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.articles__header-fruits, 
+.articles__header-vegetables,
+.articles__header-dairy,
+.articles__header-oil,
+.articles__header-honey,
+.articles__header-other {
+    background: white;
+    padding: 10px;
+    margin: 20px 0px;
+    text-align: center;
+    background: rgb(221, 221, 72);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+.articles__icon {
+    width: 40px;
+}
