@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>EcoFarma-logowanie</title>
+  <meta name="description" content="EcoFarma- logowanie">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="/css/login.css">
+  <script src="login.js" defer></script>
+
+</head>
+
+<body>
+  <div class="container__login">
+    <div class="logo__login">
+      <a href="index.html" class="logo__login-header">Eco<span class="login__span"><img src="/images/pngbarn (35) 2.png" alt="icon"
+            class="logo__login-header-icon"></span>Farma</a>
+    </div>
+    <div class="card__login">
+      <div class="inner__box" id="card">
+        <div class="card__login-front">
+          <a href="/index.html">
+            <button class="login__close login__button">X</button>
+          </a>
+          <h2>Zaloguj</h2>
+          <form>
+            <input type="email" class="input__box" placeholder="Twój Email" required>
+            <input type="password" class="input__box" placeholder="Hasło" required minlength="8">
+            <button type="submit" class="submit__btn login__button">Zaloguj się</button>
+            <input type="checkbox"><span>Zapamiętaj mnie</span>
+          </form>
+          <button type="button" class="btn login__button" onclick="openRegister()">Jestem nowy</button>
+          <a href="">Zapomniałem hasła</a>
+        </div>
+        <div class="card__login-back">
+          <a href="/index.html">
+            <button class="login__close login__button">X</button>
+          </a>
+          <h2>Rejestracja</h2>
+          <form>
+            <input type="email" class="input__box" placeholder="Twój Email" required>
+            <input type="password" class="input__box" placeholder="Hasło" required minlength="8">
+            <input type="password" class="input__box" placeholder="Powtórz Hasło" required minlength="8">
+            <button type="submit" class="submit__btn login__button">Zarejestruj się</button>
+            <input type="checkbox"><span>Zapamiętaj mnie</span>
+          </form>
+          <button type="button" class="btn login__button" onclick="openLogin()">Posiadam konto</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

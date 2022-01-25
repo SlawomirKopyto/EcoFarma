@@ -86,6 +86,11 @@ header form button {
     margin-bottom: 5px;
 }
 
+.login__link {
+    text-decoration: none;
+    color: black;
+}
+
 .xxx__icon {
     padding-bottom: 7px;
 }
