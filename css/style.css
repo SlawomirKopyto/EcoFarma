@@ -40,7 +40,6 @@
 }
 
 .card__title {
-    background: linear-gradient(120deg, #84defa 0%, #89a7d4 100%);
     padding: 10px;
     border-radius: 10px;
     font-size: 2rem;
@@ -96,16 +95,3 @@
     box-shadow: 2px 4px 10px #0003;
 }
 
-
-
-.card:nth-child(2n) h2 {
-    background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-}
-
-.card:nth-child(3n) h2 {
-    background: linear-gradient(120deg, #ff9a9e 0%, #fecfef 100%);
-}
-
-.card:nth-child(5n) h2 {
-    background: linear-gradient(120deg, #ffc3a0 0%, #ffafbd 100%);
-}
