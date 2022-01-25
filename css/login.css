@@ -9,6 +9,12 @@
     align-items: center;
     justify-content: center;
   }
+
+  @media(max-height: 760px) {
+      .container__login {
+          height: 760px;
+      }
+  }
   
   .logo__login {
     position: fixed;
