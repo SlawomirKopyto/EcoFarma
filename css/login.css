@@ -17,13 +17,11 @@
   }
   
   .logo__login {
-    position: fixed;
     width: 350px;
     background: #FDD32A;
     top: 10px;
     padding: 10px 0;
     text-align: center;
-    z-index: 1;
   }
   
   .logo__login-header {
