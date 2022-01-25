@@ -120,24 +120,23 @@
   
   .submit__btn {
     position: relative;
+    font-size: 16px;
+    border: 2px solid blue;
+    background-color: blue;
   }
   
-  .submit__btn::after {
-    content: '\27a4';
-    color: #333;
-    line-height: 32px;
-    font-size: 17px;
-    height: 32px;
-    width: 32px;
-    border-radius: 50%;
-    background: #fff;
-    position: absolute;
-    right: -1px;
-    top: -1px;
+  .login__description {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    gap: 5px;
+    margin-top: 10px;
   }
   
   .login__span {
     font-size: 13px;
+    margin-left: 5px;
+    margin-right: 20px;
   }
   
   .card__login .btn {
@@ -163,7 +162,7 @@
   .login__close {
     width: 20px;
     height: 20px;
-    padding: 2px;
+    padding: 3px;
     margin: -20px;
     float: right;
   }

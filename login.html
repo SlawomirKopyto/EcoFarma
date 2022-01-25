@@ -19,8 +19,8 @@
   <div class="container__login">
     <div class="box__login">
       <div class="logo__login">
-        <a href="index.html" class="logo__login-header">Eco<span class="login__span"><img src="images/pngbarn (35) 2.png" alt="icon"
-              class="logo__login-header-icon"></span>Farma</a>
+        <a href="index.html" class="logo__login-header">Eco<span class="login__span"><img
+              src="images/pngbarn (35) 2.png" alt="icon" class="logo__login-header-icon"></span>Farma</a>
       </div>
       <div class="card__login">
         <div class="inner__box" id="card">
@@ -33,10 +33,12 @@
               <input type="email" class="input__box" placeholder="Twój Email" required>
               <input type="password" class="input__box" placeholder="Hasło" required minlength="8">
               <button type="submit" class="submit__btn login__button">Zaloguj się</button>
-              <input type="checkbox"><span>Zapamiętaj mnie</span>
+              <div class="login__description">
+                <input type="checkbox"><span class="login__span">Zapamiętaj mnie</span>
+                <a href="">Zapomniałem hasła</a>
+              </div>
             </form>
-            <button type="button" class="btn login__button" onclick="openRegister()">Jestem nowy</button>
-            <a href="">Zapomniałem hasła</a>
+            <button type="button" class="btn login__button" onclick="openRegister()">Jestem nowy, nie mam jeszcze konta</button>
           </div>
           <div class="card__login-back">
             <a href="index.html">
@@ -48,9 +50,8 @@
               <input type="password" class="input__box" placeholder="Hasło" required minlength="8">
               <input type="password" class="input__box" placeholder="Powtórz Hasło" required minlength="8">
               <button type="submit" class="submit__btn login__button">Zarejestruj się</button>
-              <input type="checkbox"><span>Zapamiętaj mnie</span>
             </form>
-            <button type="button" class="btn login__button" onclick="openLogin()">Posiadam konto</button>
+            <button type="button" class="btn login__button" onclick="openLogin()">Posiadam już konto</button>
           </div>
         </div>
       </div>
