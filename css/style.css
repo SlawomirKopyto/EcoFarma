@@ -13,6 +13,7 @@
 .description {
     font-size: 26px;
     text-align: center;
+    margin: 25px;
     margin-bottom: 30px;
 }
 
@@ -20,6 +21,13 @@
     .description {
         font-size: 20px;
         margin-bottom: 15px;
+    }
+}
+
+@media(max-width: 499px) {
+    .description {
+        font-size: 16px;
+        margin-bottom: 10px;
     }
 }
 
